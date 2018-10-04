@@ -1,0 +1,51 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Author</title>
+</head>
+<body onscroll="loremScroll()">
+<div id="everything">
+    <div id="header">
+        <div id="banner">
+            <div id="menuBar">
+                <table width="100%">
+                    <tr>
+                        <td><span class="menuButton"><a href="index.html">Library</a></span></td>
+                        <td><span class="menuButton"><a href="index.html">Home</a></span></td>
+                        <td><span class="menuButton"><a href="addbook.html">Add Books</a></span></td>
+                        <td>Add Authors</a></td>
+                        <td><span class="menuButton"><a href="asd.html">asd</a></span></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <form action="addAuthor" method="post">
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td><input name="name" type="text" required="required"></td>
+                </tr>
+                <tr>
+                    <td>Nationality:</td>
+                    <td><select name="nationality" required="required">
+                        <option value="hun">Magyar</option>
+                        <option value="eng">Angol</option>
+                        <option value="ger">Német</option>
+                    </select></td>
+                <tr>
+                    <td>Birthdate:</td>
+                    <td><input type="date" required="required"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Add author"></td>
+
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</div>
+</body>
+</html>
